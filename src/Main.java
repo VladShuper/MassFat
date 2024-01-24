@@ -3,7 +3,7 @@ public class Main {
         BmiService service = new BmiService();
         double height = 2.07;
         int weight = 78;
-        int massFat = service.calculate (height, weight);
+        int massFat = service.calculate(height, weight);
         System.out.println("Добрый день. Вам начисленны бонусные мили в размере:" + (massFat));
     }
 }
